@@ -1,88 +1,136 @@
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-*{
-  box-sizing:border-box;
-  padding:0;
-  margin:0;
-  max-width:100%;
-  border:1px solid grey; 
-}
-section{
-  padding:4% 0;
-}
-.title-container{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-.circle img{
-  border-radius: 50%;
-  float: left;
-  width: 25%;
-  height: auto;
-  margin: 25px;
-}
-.circle p{
-  float:right;
-}
-.nav-container{
-  display:flex;
-  justify-content:center;
+  html, body, div, span, applet, object, iframe,  
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+  a, abbr, acronym, address, big, cite, code,  
+  del, dfn, em, img, ins, kbd, q, s, samp,  
+  small, strike, strong, sub, sup, tt, var,  
+  b, u, i, center,  
+  dl, dt, dd, ol, ul, li,  
+  fieldset, form, label, legend,  
+  table, caption, tbody, tfoot, thead, tr, th, td,  
+  article, aside, canvas, details, embed,  
+  figure, figcaption, footer, header, hgroup,  
+  menu, nav, output, ruby, section, summary,  
+  time, mark, audio, video {  
+  margin: 0;  
+  padding: 0;  
+  border: 0;  
+  font-size: 100%;  
+  font: inherit;  
+  vertical-align: baseline;  
+  }
+  *{
+    background-color: #DDB9A3;
+  }
   
+  header, section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    padding: 50px 10px;
+    
+  }
+  
+  header nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: #2A363B;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color:#FF764E;
+  }
+  
+  
+  
+  section {
+    padding: 50px 20px;
+    
+  }
+  
+  section .about-text {
+    width: 50%;
+    background-color: #DDB9A3;
+    padding: 30px;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+  }
+  h1{
+    font-weight:bold;
+    font-size: 30px;
+  }
+  
+.hdr img{
+  float:left;
+  border-radius: 50%;
 }
-nav{
-  display:flex;
-  justify-content:space-evenly;
-  width:60%
+.titletext p{
+  float:right;
+  font-size: 20px;
+  padding: 10px;
 }
-
-.artists-container{
-  display:flex;
-  justify-content:space-around;
-}
-
-.artist{
-  width:40%;
-}
+    
+  
+  #skills h2 {
+    text-align: center;
+  }
+  .skillsCont {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+  .skillsCont div {
+    width: 25%;
+    text-align: center;
+    flex-direction: column;
+    
+  }
+  img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+  }
+  footer nav {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9E7DC;
+    
+  }
+  
+  footer nav a {
+    color: #2A363B;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+  }
+  footer img{
+    height: 25%;
+    width: auto;
+    
+  }
